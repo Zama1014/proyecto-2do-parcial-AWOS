@@ -62,5 +62,5 @@ app.delete("/usuario/:id", function(req, rees){
 });
  
 app.listen(process.env.PORT, () =>{
-    console.log ("el servidor esta en linea por el puerto 3000");
+    console.log ("el servidor esta en linea por el puerto" , process.env.PORT);
 });
