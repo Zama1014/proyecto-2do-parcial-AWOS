@@ -22,11 +22,11 @@ let usuarioSchema = new Schema({
     },
     role: {
         type: String,
-        defauld: "USER_ROLE"
+        defaut: "USER_ROLE"
     },
     estado: {
         type: Boolean,
-        defauld: true
+        default: true
     },
     google: {
         type: Boolean,
